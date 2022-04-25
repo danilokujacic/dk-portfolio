@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Space+Mono&display=swap');
+
+body, html {
+  scroll-behavior: smooth;
+}
+p,
+label {
+  @apply font-semibold text-sm;
+}
